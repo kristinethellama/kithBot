@@ -50,6 +50,7 @@ async def on_message(message):
     quote = get_quote()
     await message.channel.send(quote)
   
+  # lists commands
   if message.content.startswith('!help'):
     await message.channel.send('```i am kith bot! your simple wholesome bot! ❤️```')
     await message.channel.send('```my commands are simple: !kiss sends you a kiss, !hug sends you a hug, and !compliment will give you a cute compliment!! 🐸💕```')
